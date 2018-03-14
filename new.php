@@ -11,7 +11,6 @@
         fgets($file);
         $id++;                
     }
-    echo $id;
     $new_firm = array("$id","$fantasy_name","$social_reason","$email","$phone","$cnpj");
     Firm::new_Register($new_firm);
     echo "<h1>Empresa cadastrada com sucesso !</h1>";
