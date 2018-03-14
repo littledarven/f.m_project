@@ -1,0 +1,32 @@
+body {
+    background: rgb(148, 146, 146);
+}
+header {
+    background: #2e7dd8;
+    text-align: center;
+    color: white;
+    padding: 0 0 7px 0;
+}
+section div ul{
+    background: yellow;
+    width: 550px;
+    height: 300px;
+    display: flex;
+}
+section div nav ul li{
+    display: flex;
+    padding: 0 3vw 0 2vw;
+    width: 130px;
+    height: 100px;
+    margin: 0 3vw 0 0;
+    background: blue;
+    border-style: solid;
+    border-radius: 5px;
+    
+}
+footer {
+    background: #2e7dd8;
+    text-align: center;
+    color: white;
+    padding: 2px 0 5px 0;
+}
