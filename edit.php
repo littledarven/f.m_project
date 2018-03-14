@@ -7,7 +7,7 @@
     $new_phone = $_POST['new_phone'];
     $new_cnpj = $_POST['new_cnpj'];
     $id = $_SESSION['id'];
-    $updated_new_firm = array("$id","$new_fantasy_name","$new_social_reason","$new_email","$new_phone","$new_cnpj");
     $new_firm = $_SESSION['new_firm'];
+    $updated_new_firm = array("$id","$new_fantasy_name","$new_social_reason","$new_email","$new_phone","$new_cnpj");
     Firm::edit_Register($new_firm,$updated_new_firm);
 ?>
