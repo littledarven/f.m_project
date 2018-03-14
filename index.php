@@ -11,7 +11,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <title>G.Empresas</title>
+    <title>Gerenciador de Empresas</title>
 </head>
 <body>
     <div id="page-wrap">
