@@ -16,7 +16,6 @@
     $_SESSION['new_firm'] = $new_firm;
     $_SESSION['id'] = $id;
 ?>
-
 <div class="row">
         <section class="col-md-9">
             <form method="POST" action="edit.php">
